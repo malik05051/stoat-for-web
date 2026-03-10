@@ -2,6 +2,7 @@ import { ComponentProps, splitProps } from "solid-js";
 
 import emojiRegex from "emoji-regex";
 
+import { useState } from "@revolt/state";
 import { EmojiBase, toCodepoint } from ".";
 
 export type UnicodeEmojiPacks =
@@ -53,6 +54,13 @@ export const UNICODE_EMOJI_PUA_PACK: Record<string, UnicodeEmojiPacks> = {
   ["\uE0E6"]: "twemoji",
 };
 
+export const startsWithPackPUA = (emoji: string) => {
+  if (emoji.startsWith(":")) return false;
+  if (emoji.slice(0, 1).match("[\uE0E0-\uE0E6]")) return true;
+
+  return false;
+};
+
 export function unicodeEmojiUrl(
   pack: UnicodeEmojiPacks = "fluent-3d",
   text: string,
@@ -70,6 +78,7 @@ export function UnicodeEmoji(
   >,
 ) {
   const [local, remote] = splitProps(props, ["emoji"]);
+  const state = useState();
 
   return (
     <EmojiBase
@@ -78,7 +87,10 @@ export function UnicodeEmoji(
       class="emoji"
       alt={local.emoji}
       draggable={false}
-      src={unicodeEmojiUrl(props.pack, props.emoji)}
+      src={unicodeEmojiUrl(
+        props.pack ?? state.settings.getValue("appearance:unicode_emoji"),
+        props.emoji,
+      )}
     />
   );
 }
