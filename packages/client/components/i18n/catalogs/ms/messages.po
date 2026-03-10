@@ -268,10 +268,6 @@ msgstr ""
 msgid "Accept friend request"
 msgstr ""
 
-#: components/app/interface/settings/UserSettings.tsx:224
-msgid "Accessibility"
-msgstr ""
-
 #: components/modal/modals/PolicyChange.tsx:44
 msgid "Acknowledge"
 msgstr ""
@@ -314,7 +310,7 @@ msgstr ""
 msgid "Admin Panel"
 msgstr ""
 
-#: components/app/interface/settings/UserSettings.tsx:281
+#: components/app/interface/settings/UserSettings.tsx:277
 msgid "Advanced"
 msgstr ""
 
@@ -345,10 +341,6 @@ msgstr ""
 msgid "Already friends with this user."
 msgstr "Sudah berakan dengan pengguna ini."
 
-#: components/app/interface/settings/user/Accessibility.tsx:42
-msgid "Always show Send Message button"
-msgstr ""
-
 #: components/app/interface/settings/user/Language.tsx:143
 #: components/app/interface/settings/user/Language.tsx:163
 msgid "American (MM/DD/YYYY)"
@@ -363,7 +355,7 @@ msgstr ""
 msgid "An internal error occurred. ({0})"
 msgstr ""
 
-#: components/app/interface/settings/UserSettings.tsx:219
+#: components/app/interface/settings/UserSettings.tsx:215
 #: components/app/interface/settings/user/Sync.tsx:34
 msgid "Appearance"
 msgstr "Penampilan"
@@ -610,7 +602,7 @@ msgstr ""
 msgid "Channels"
 msgstr "Saluran"
 
-#: components/app/interface/settings/user/Accessibility.tsx:18
+#: components/app/interface/settings/user/appearance/AppearanceMenu.tsx:380
 msgid "Chat Input"
 msgstr ""
 
@@ -638,7 +630,7 @@ msgstr ""
 msgid "Click to show spoiler"
 msgstr ""
 
-#: components/app/interface/settings/UserSettings.tsx:202
+#: components/app/interface/settings/UserSettings.tsx:198
 msgid "Client Settings"
 msgstr "Tetapan Klien"
 
@@ -1021,7 +1013,7 @@ msgstr ""
 msgid "Description provided by {0}"
 msgstr ""
 
-#: components/app/interface/settings/UserSettings.tsx:256
+#: components/app/interface/settings/UserSettings.tsx:252
 msgid "Desktop"
 msgstr ""
 
@@ -1080,7 +1072,7 @@ msgstr ""
 msgid "Don't notify others that you've left"
 msgstr ""
 
-#: components/app/interface/settings/UserSettings.tsx:286
+#: components/app/interface/settings/UserSettings.tsx:282
 msgid "Donate"
 msgstr ""
 
@@ -1169,7 +1161,7 @@ msgstr "E-mel"
 msgid "Emoji Name"
 msgstr ""
 
-#: components/app/interface/settings/user/appearance/AppearanceMenu.tsx:380
+#: components/app/interface/settings/user/appearance/AppearanceMenu.tsx:396
 msgid "Emoji Pack (affects your messages only)"
 msgstr ""
 
@@ -1248,7 +1240,7 @@ msgstr ""
 msgid "Failed to verify!"
 msgstr "Gagal mengesahkan!"
 
-#: components/app/interface/settings/UserSettings.tsx:186
+#: components/app/interface/settings/UserSettings.tsx:182
 #: components/app/interface/settings/user/Feedback.tsx:75
 msgid "Feedback"
 msgstr "Maklum balas"
@@ -1420,10 +1412,6 @@ msgstr ""
 msgid "Idle"
 msgstr "Diam"
 
-#: components/app/interface/settings/user/Accessibility.tsx:37
-msgid "If disabled, the Send Message button will only appear on mobile"
-msgstr ""
-
 #: components/modal/modals/ReportContent.tsx:66
 msgid "Illegal hacking or cracking"
 msgstr ""
@@ -1544,7 +1532,7 @@ msgstr ""
 msgid "Kick Members"
 msgstr "Tendang Ahli"
 
-#: components/app/interface/settings/UserSettings.tsx:245
+#: components/app/interface/settings/UserSettings.tsx:241
 #: components/app/interface/settings/user/Sync.tsx:52
 msgid "Language"
 msgstr "Bahasa"
@@ -1610,7 +1598,7 @@ msgstr ""
 msgid "Log In"
 msgstr ""
 
-#: components/app/interface/settings/UserSettings.tsx:295
+#: components/app/interface/settings/UserSettings.tsx:291
 #: components/app/interface/settings/user/Sessions.tsx:168
 msgid "Log Out"
 msgstr "Log Keluar"
@@ -1819,11 +1807,11 @@ msgstr "Redam Ahli"
 msgid "Mute Server"
 msgstr ""
 
-#: src/interface/navigation/servers/ServerList.tsx:245
+#: src/interface/navigation/servers/ServerList.tsx:235
 msgid "Muted"
 msgstr "Disenyapkan"
 
-#: src/interface/navigation/servers/ServerList.tsx:247
+#: src/interface/navigation/servers/ServerList.tsx:237
 #: components/app/menus/ServerContextMenu.tsx:186
 #: components/app/menus/shared/NotificationContextMenu.tsx:43
 msgid "Muted until <0/>"
@@ -1841,7 +1829,7 @@ msgstr "Grup Bersama"
 msgid "My Account"
 msgstr "Akaun Saya"
 
-#: components/app/interface/settings/UserSettings.tsx:181
+#: components/app/interface/settings/UserSettings.tsx:177
 msgid "My Bots"
 msgstr "Bot Saya"
 
@@ -1904,7 +1892,6 @@ msgstr ""
 
 #: components/app/menus/ServerContextMenu.tsx:238
 #: components/app/menus/shared/NotificationContextMenu.tsx:95
-#: components/app/interface/settings/user/Accessibility.tsx:47
 msgid "Notifications"
 msgstr "Pemberitahuan"
 
@@ -2070,7 +2057,7 @@ msgstr "Dasar Privasi"
 msgid "Private Channel"
 msgstr ""
 
-#: components/app/interface/settings/UserSettings.tsx:166
+#: components/app/interface/settings/UserSettings.tsx:162
 msgid "Profile"
 msgstr "Profil"
 
@@ -2432,7 +2419,7 @@ msgstr "Nama Server"
 msgid "Server Roles"
 msgstr ""
 
-#: components/app/interface/settings/UserSettings.tsx:171
+#: components/app/interface/settings/UserSettings.tsx:167
 msgid "Sessions"
 msgstr "Sesi"
 
@@ -2466,11 +2453,7 @@ msgid "Show corrections and suggestions as you type."
 msgstr ""
 
 #: components/app/interface/settings/user/appearance/AppearanceMenu.tsx:392
-#~ msgid "Show send message button"
-#~ msgstr ""
-
-#: components/app/interface/settings/user/Accessibility.tsx:68
-msgid "Show unread conversations in server list"
+msgid "Show send message button"
 msgstr ""
 
 #: components/auth/src/flows/FlowLogin.tsx:57
@@ -2506,7 +2489,7 @@ msgstr ""
 msgid "Sounds"
 msgstr "Bunyi"
 
-#: components/app/interface/settings/UserSettings.tsx:276
+#: components/app/interface/settings/UserSettings.tsx:272
 msgid "Source Code"
 msgstr "Kod sumber"
 
@@ -2566,7 +2549,7 @@ msgstr "Hantar maklum balas"
 msgid "Submit to Discover"
 msgstr ""
 
-#: components/app/interface/settings/UserSettings.tsx:191
+#: components/app/interface/settings/UserSettings.tsx:187
 msgid "Subscriptions"
 msgstr ""
 
@@ -2831,7 +2814,7 @@ msgstr "Pengguna Keluar Panggilan"
 msgid "User Management"
 msgstr "Pengurusan pengguna"
 
-#: components/app/interface/settings/UserSettings.tsx:155
+#: components/app/interface/settings/UserSettings.tsx:151
 msgid "User Settings"
 msgstr "Tetapan Pengguna"
 
@@ -2880,7 +2863,7 @@ msgstr ""
 msgid "Verifying your account…"
 msgstr "Mengesahkan akaun anda…"
 
-#: components/app/interface/settings/UserSettings.tsx:127
+#: components/app/interface/settings/UserSettings.tsx:123
 #: components/app/interface/settings/user/Native.tsx:151
 msgid "Version:"
 msgstr ""
@@ -2917,7 +2900,7 @@ msgstr "Lihat kod pemulihan"
 msgid "Viewing older messages"
 msgstr "Melihat mesej lama"
 
-#: components/app/interface/settings/UserSettings.tsx:214
+#: components/app/interface/settings/UserSettings.tsx:210
 #: components/app/interface/settings/channel/permissions/ChannelPermissionsEditor.tsx:330
 msgid "Voice"
 msgstr ""
