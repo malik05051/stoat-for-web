@@ -21,7 +21,6 @@ import MdSettings from "@material-design-icons/svg/filled/settings.svg?component
 import { Tooltip } from "../../../../components/ui/components/floating";
 import { Draggable } from "../../../../components/ui/components/utils/Draggable";
 
-import { Symbol } from "@revolt/ui/components/utils/Symbol";
 import { UserMenu } from "./UserMenu";
 
 interface Props {
@@ -170,11 +169,6 @@ export const ServerList = (props: Props) => {
             />
           </a>
           <UserMenu anchor={menuButton} />
-        </Tooltip>
-        <Tooltip placement="right" content="Switch back to legacy app">
-          <a href="https://app.revolt.chat" class={entryContainer()}>
-            <Symbol>history</Symbol>
-          </a>
         </Tooltip>
         <Show when={showUnreadConversations()}>
           <For each={props.unreadConversations.slice(0, 9)}>
