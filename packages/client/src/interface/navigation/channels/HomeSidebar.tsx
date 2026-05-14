@@ -76,7 +76,7 @@ export const HomeSidebar = (props: Props) => {
           <a href="/app">
             <MenuButton
               size="normal"
-              icon={<Symbol>home</Symbol>}
+              icon={<img src="https://cdn.discordapp.com/attachments/1011745793826369638/1504581054323884122/Daronne_a_Chansio.png?ex=6a0781cd&is=6a06304d&hm=12694642e44b60a4b602b4dc5b7f243081166bf48b4f490e9dcc6250a7719225&" alt="Home" style={{ width: "24px", height: "24px" }} />}
               attention={location.pathname === "/app" ? "selected" : "normal"}
             >
               <ButtonTitle>
